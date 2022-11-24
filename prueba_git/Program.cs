@@ -13,7 +13,7 @@ namespace prueba_git
             Console.ForegroundColor = ConsoleColor.Red;
 
             Console.WriteLine("Hello World!");
-
+            Console.WriteLine("HAW AR YU?");
             Console.WriteLine("¿Cual es tu edad?");
 
             int edad = int.Parse(Console.ReadLine());
