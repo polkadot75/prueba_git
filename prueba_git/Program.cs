@@ -11,6 +11,8 @@ namespace prueba_git
         static void Main(string[] args)
         {
             Console.WriteLine(" Hello World! ");
+
+            int edad = int.Parse(Console.ReadLine());
         }
     }
 }
