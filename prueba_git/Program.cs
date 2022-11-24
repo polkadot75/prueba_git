@@ -10,7 +10,7 @@ namespace prueba_git
     {
         static void Main(string[] args)
         {
-            Console.ForegroundColor = ConsoleColor.Green;
+            Console.ForegroundColor = ConsoleColor.Red;
 
             Console.WriteLine("Hello World!");
 
