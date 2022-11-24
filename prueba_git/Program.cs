@@ -10,9 +10,25 @@ namespace prueba_git
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(" Hello World! ");
+            Console.ForegroundColor = ConsoleColor.Green;
+
+            Console.WriteLine("Hello World!");
+
+            Console.WriteLine("¿Cual es tu edad?");
 
             int edad = int.Parse(Console.ReadLine());
+
+
+            if (edad>18)
+            {
+                Console.WriteLine("! Eres mayor de edad !");
+            }
+            else
+            {
+                Console.WriteLine("! No eres mayor de eddad !");
+            }
+
+
         }
     }
 }
